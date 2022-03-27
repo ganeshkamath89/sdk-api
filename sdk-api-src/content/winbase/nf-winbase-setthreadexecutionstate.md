@@ -54,6 +54,8 @@ api_name:
 
 Enables an application to inform the system that it is in use, thereby preventing the system from entering sleep or turning off the display while the application is running.
 
+This API cannot be called from a Windows service.
+
 ## -parameters
 
 ### -param esFlags [in]
